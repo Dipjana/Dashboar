@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### install meterial ui
+
+This is the link: [https://mui.com/material-ui/getting-started/installation/]
+npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material
+
+### install react router
+
+Doc: [https://reactrouter.com/en/main/start/overview]
+react-router-dom@6 
+
+### install react sidebar 
+
+react-pro-sidebar 
+
+### formik and yup
+Link: [https://formik.org/docs/overview#installation]
+Link: [https://www.npmjs.com/package/yup]
+ npm i formik yup 
+ 
+ ### calender
+ Link: [https://fullcalendar.io/docs]
+ Link: [https://www.npmjs.com/package/@fullcalendar/react]
+ npm i @fullcalendar/core @fullcalendar/daygrid @fullcalendar/list @fullcalendar/timegrid 
+ 
+
+ ### chart 
+ link:[https://nivo.rocks/components]
+ npm i @nivo/core @nivo/bar @nivo/pie @nivo/line @nivo/geo
+
+ ### Meterial ui data grid
+ Link:[https://mui.com/x/react-data-grid/]
