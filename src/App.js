@@ -16,18 +16,22 @@ import Bar from "./scenes/bar/Bar";
 import Line from "./scenes/line/Line";
 import Pie from "./scenes/pie/Pie";
 import { useState } from "react";
-
+import './index.css';
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
+  
   return (
 <ColorModeContext.Provider value={colorMode}>
   <ThemeProvider theme={theme}>
   
     <CssBaseline />
   <div className="app">
-  <Sidebar isSidebar={isSidebar} />
-    <main className="content">
+    <div >
+    <Sidebar isSidebar={isSidebar} />
+    </div>
+
+    <div className="content">
     <Topbar setIsSidebar={setIsSidebar} />
       <Routes>
         <Route path="/" element={<Dashboard />} />
@@ -42,7 +46,7 @@ function App() {
         <Route path="/pie" element={<Pie />} />
         <Route path="/geography" element={<Geography />} />
       </Routes>
-    </main>
+    </div>
   </div>
 
   </ThemeProvider>

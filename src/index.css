@@ -3,8 +3,7 @@
 html,
 body,
 #root,
-.app,
-.content {
+.app{
   height: 100%;
   width: 100%;
   font-family: "Source Sans Pro", sans-serif;
@@ -12,8 +11,21 @@ body,
 
 .app {
   display: flex;
-  position: relative;
+  position: absolute;
 }
+
+.content {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100%;
+  overflow-y: auto !important;
+}
+.boxname{
+  height: 100% !important;
+  overflow-y: auto !important;
+}
+
+
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -49,3 +61,5 @@ body,
 .pro-menu-item.active {
   color: #6870fa !important;
 }
+
+
